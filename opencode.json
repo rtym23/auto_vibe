@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "autovibe": {
+      "type": "local",
+      "command": ["python", "-c", "from auto_vibe.server import main; main()"],
+      "cwd": ".",
+      "enabled": true,
+      "environment": {
+        "AUTOVIBE_LLM__provider": "openai",
+        "AUTOVIBE_LLM__model": "zai-org/glm-4.6v-flash",
+        "AUTOVIBE_LLM__base_url": "http://localhost:1234"
+      }
+    }
+  }
+}

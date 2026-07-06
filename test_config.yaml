@@ -1,0 +1,29 @@
+llm:
+  provider: ollama
+  model: custom-model
+  base_url: http://localhost:11434
+  mesh_peer_id: null
+  mesh_network: auto
+  api_key: ''
+executor:
+  timeout: 30
+  max_memory_mb: 512
+  use_venv: true
+memory:
+  enabled: true
+  decay_rate: 0.95
+  max_entries: 1000
+  vault_path: ~/.auto_vibe/vault.json
+cost:
+  enabled: true
+  price_per_1k_tokens: 0.0
+  currency: USD
+strategy:
+  default: deep
+  max_iterations: 10
+  quick_attempts: 1
+dashboard:
+  enabled: true
+  host: 127.0.0.1
+  port: 7890
+config_path: null
