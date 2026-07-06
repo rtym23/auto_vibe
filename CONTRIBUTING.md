@@ -13,8 +13,8 @@ Thank you for your interest in contributing to AutoVibe!
 
 ```bash
 # Clone and setup
-git clone https://github.com/your-repo/auto-vibe.git
-cd auto-vibe
+git clone https://github.com/rtym23/auto_vibe.git
+cd auto_vibe
 pip install -e ".[dev]"
 
 # Run tests

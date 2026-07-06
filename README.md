@@ -33,7 +33,7 @@ AutoVibe is an autonomous agentic loop that automatically analyzes code, generat
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/auto-vibe.git
+git clone https://github.com/rtym23/auto_vibe.git
 cd auto-vibe
 
 # Install dependencies
